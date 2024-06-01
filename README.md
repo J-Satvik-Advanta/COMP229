@@ -56,8 +56,7 @@ Follow these steps to set up and run the project locally:
       npm run dev
 4. Open the project in your browser:
    ```bash
-    Navigate to http://localhost:5174 to view 
-    the website.
+    Navigate to http://localhost:5174 to view the website.
 ## Usage
 
 ### Home Page
@@ -74,6 +73,10 @@ The Services page lists the services I offer, such as web development, mobile ap
 
 ### Contact Page
 The Contact page includes a form for visitors to send me a message. The form captures basic contact information and redirects to the home page upon submission.
+
+## Deployment
+Live Portfolio
+You can view the live portfolio at: https://comp-229-three.vercel.app
 
 ## Contact
 
