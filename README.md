@@ -56,7 +56,7 @@ Follow these steps to set up and run the project locally:
       npm run dev
 4. Open the project in your browser:
    ```bash
-    Navigate to http://localhost:3000 to view 
+    Navigate to http://localhost:5174 to view 
     the website.
 ## Usage
 
