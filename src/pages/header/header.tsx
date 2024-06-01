@@ -12,6 +12,7 @@ const Header: React.FC = () => {
         <a href=".">
           {/* <img src="./static/logo.svg" width="110" height="32" alt="Tabler" className="navbar-brand-image" /> */}
           {/* logo */}
+          <img src="./public/my-logo.jpeg" alt="my-logo" width="32" height="32"  />
         </a>
       </h1>
       <div className="navbar-nav flex-row order-md-last">
@@ -104,7 +105,7 @@ const Header: React.FC = () => {
         </div>
         <div className="nav-item dropdown">
           <a href="#" className="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown" aria-label="Open user menu">
-            <span className="avatar avatar-sm" style={{backgroundImage: "./public/my-photo.jpeg"}}></span>
+          <span className="avatar avatar-sm" style={{ backgroundImage: `url(/my-photo.jpeg)` }}></span>
             {/* change this */}
             <div className="d-none d-xl-block ps-2">
               <div>Satvik Kumar Jain</div>
