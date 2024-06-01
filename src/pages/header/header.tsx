@@ -1,20 +1,25 @@
-/* 
- * File name: header.tsx
- * Student's Name: Satvik Kumar Jain
- * StudentID: 301370624
- * Date: 2024-05-31
- */
-/* header.tsx */
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Header: React.FC = () => {
   const location = useLocation();
+  const [isNavbarCollapsed, setIsNavbarCollapsed] = useState(true);
+
+  const handleNavbarToggle = () => {
+    setIsNavbarCollapsed(!isNavbarCollapsed);
+  };
 
   return (
     <header className="navbar navbar-expand-md d-print-none height-10">
       <div className="container-xl">
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <button 
+          className="navbar-toggler" 
+          type="button" 
+          aria-controls="navbar-menu" 
+          aria-expanded={!isNavbarCollapsed} 
+          aria-label="Toggle navigation"
+          onClick={handleNavbarToggle}
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
         <h1 className="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
@@ -47,31 +52,31 @@ const Header: React.FC = () => {
             </a>
           </div>
         </div>
-        <div className="collapse navbar-collapse" id="navbar-menu">
+        <div className={`collapse navbar-collapse ${isNavbarCollapsed ? '' : 'show'}`} id="navbar-menu">
           <div className="d-flex flex-column flex-md-row flex-fill align-items-stretch align-items-md-center">
             <ul className="navbar-nav">
               <li className={`nav-item ${location.pathname === '/' ? 'active' : ''}`}>
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/" onClick={handleNavbarToggle}>
                   <span className="nav-link-title">Home</span>
                 </Link>
               </li>
               <li className={`nav-item ${location.pathname === '/about-me' ? 'active' : ''}`}>
-                <Link className="nav-link" to="/about-me">
+                <Link className="nav-link" to="/about-me" onClick={handleNavbarToggle}>
                   <span className="nav-link-title">About Me</span>
                 </Link>
               </li>
               <li className={`nav-item ${location.pathname === '/projects' ? 'active' : ''}`}>
-                <Link className="nav-link" to="/projects">
+                <Link className="nav-link" to="/projects" onClick={handleNavbarToggle}>
                   <span className="nav-link-title">Projects</span>
                 </Link>
               </li>
               <li className={`nav-item ${location.pathname === '/services' ? 'active' : ''}`}>
-                <Link className="nav-link" to="/services">
+                <Link className="nav-link" to="/services" onClick={handleNavbarToggle}>
                   <span className="nav-link-title">Services</span>
                 </Link>
               </li>
               <li className={`nav-item ${location.pathname === '/contact-me' ? 'active' : ''}`}>
-                <Link className="nav-link" to="/contact-me">
+                <Link className="nav-link" to="/contact-me" onClick={handleNavbarToggle}>
                   <span className="nav-link-title">Contact Me</span>
                 </Link>
               </li>

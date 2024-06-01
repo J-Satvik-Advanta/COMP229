@@ -90,7 +90,7 @@ const ContactMe: React.FC = () => {
     <div className="container my-5">
       <h2 className="text-center mb-4">Contact Me</h2>
       <div className="d-flex justify-content-center">
-        <div className="card" style={{ width: '40%' }}>
+        <div className="card w-100" style={{ maxWidth: '600px' }}>
           <div className="card-body">
             <form onSubmit={handleSubmit}>
               <div className="mb-4">

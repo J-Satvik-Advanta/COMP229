@@ -52,7 +52,7 @@ const Services: React.FC = () => {
       <h2 className="text-center mb-4">Services</h2>
       <div className="row">
         {services.map((service, index) => (
-          <div className="col-md-4 mb-4" key={index}>
+          <div className="col-12 col-md-6 col-lg-4 mb-4" key={index}>
             <div className="card h-100 text-center">
               <div className="card-body">
                 <h5 className="card-title">{service.title}</h5>

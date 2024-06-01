@@ -4,7 +4,6 @@
  * StudentID: 301370624
  * Date: 2024-05-31
  */
-/* projects.tsx */
 import React from 'react';
 
 const projects = [
@@ -34,15 +33,20 @@ const projects = [
 const Projects: React.FC = () => {
   return (
     <div className="container my-5">
-      <h2>Projects</h2>
+      <h2 className="text-center mb-4">Projects</h2>
       <div className="row">
         {projects.map((project, index) => (
-          <div className="col-md-4" key={index}>
-            <div className="card mb-4 p-4">
-              <img src={project.image} className={`card-img-top ${project.title === 'Rapid ERP' ? 'erp' : ''}`}  alt={project.title} />
-              <div className="card-body">
+          <div className="col-12 col-md-6 col-lg-4 mb-4" key={index}>
+            <div className="card h-100 d-flex justify-content-center align-items-center">
+              <img 
+              style={{width:project.title === 'Rapid ERP' ? "50%":""}}
+                src={project.image} 
+                className="card-img-top project-image" 
+                alt={project.title}
+              />
+              <div className="card-body d-flex flex-column">
                 <h3 className="card-title">{project.title}</h3>
-                <p className="card-text">{project.description}</p>
+                <p className="card-text flex-grow-1">{project.description}</p>
                 <p className="card-text"><strong>Role:</strong> {project.role}</p>
                 <p className="card-text"><strong>Outcome:</strong> {project.outcome}</p>
               </div>

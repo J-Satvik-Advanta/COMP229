@@ -25,17 +25,17 @@ const Home: React.FC = () => {
       <div className="container mt-6">
         <h2 className="text-center mb-5">Highlights</h2>
         <div className="row text-center">
-          <div className="col-md-4">
+          <div className="col-12 col-md-4 mb-4 mb-md-0">
             <h3>Projects</h3>
             <p>Explore my projects that showcase my skills in web development, mobile apps, and more.</p>
             <Link to="/projects" className="btn btn-secondary">View Projects</Link>
           </div>
-          <div className="col-md-4">
+          <div className="col-12 col-md-4 mb-4 mb-md-0">
             <h3>Services</h3>
             <p>Discover the range of services I offer, from web development to cloud solutions.</p>
             <Link to="/services" className="btn btn-secondary">View Services</Link>
           </div>
-          <div className="col-md-4">
+          <div className="col-12 col-md-4">
             <h3>Contact</h3>
             <p>Get in touch with me for collaborations, projects, or any inquiries.</p>
             <Link to="/contact-me" className="btn btn-secondary">Contact Me</Link>
