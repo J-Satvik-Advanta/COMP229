@@ -12,7 +12,7 @@ const AboutMe: React.FC = () => {
     <div className="container my-5">
       <div className="row">
         <div className="col-12 col-md-6 d-flex justify-content-center align-items-start mb-4 mb-md-0">
-          <img src="/my-photo.jpeg" className="img-fluid" alt="Satvik Kumar Jain" />
+          <img src="/my-photo.jpeg" style={{ height: "550px"}} className="img-fluid" alt="Satvik Kumar Jain" />
         </div>
         <div className="col-12 col-md-6 text-center text-md-start">
           <h2>About Me</h2>
