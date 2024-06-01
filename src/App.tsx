@@ -1,3 +1,10 @@
+/* 
+ * File name: app.tsx
+ * Student's Name: Satvik Kumar Jain
+ * StudentID: 301370624
+ * Date: 2024-05-31
+ */
+/* app.tsx */
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home/home';

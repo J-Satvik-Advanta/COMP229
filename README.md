@@ -1,8 +1,6 @@
 # My Portfolio
 
 - Name - Satvik Kumar Jain 
-- Student ID - (301370624)
-- Date - 31-05-2024
 
 This is my personal portfolio website built with React, TypeScript, Vite, Tabler, and Bootstrap. It showcases my projects, skills, and provides a way to contact me.
 

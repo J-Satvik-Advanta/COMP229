@@ -1,3 +1,10 @@
+/* 
+ * File name: projects.tsx
+ * Student's Name: Satvik Kumar Jain
+ * StudentID: 301370624
+ * Date: 2024-05-31
+ */
+/* projects.tsx */
 import React from 'react';
 
 const projects = [

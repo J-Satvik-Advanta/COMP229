@@ -1,4 +1,10 @@
-
+/* 
+ * File name: footer.tsx
+ * Student's Name: Satvik Kumar Jain
+ * StudentID: 301370624
+ * Date: 2024-05-31
+ */
+/* footer.tsx */
 import React from 'react';
 
 const Footer: React.FC = () => {
