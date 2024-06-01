@@ -142,7 +142,7 @@ const Header: React.FC = () => {
               <a className="nav-link" href="/projects">
                 
                 <span className="nav-link-title">
-                    Project
+                    Projects
                 </span>
               </a>
             </li>
