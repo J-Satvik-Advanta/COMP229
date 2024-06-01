@@ -13,7 +13,7 @@ const App: React.FC = () => {
     <Router>
       <div className="page">
         <Header />
-        <div className="page-wrapper" style={{ height: '80%' }}>
+        <div className="page-wrapper height-80">
           <div className="page-body">
             <div className="container-xl d-flex flex-column justify-content-center">
             </div>
