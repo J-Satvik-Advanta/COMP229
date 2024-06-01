@@ -125,7 +125,7 @@ const Header: React.FC = () => {
         <div className="d-flex flex-column flex-md-row flex-fill align-items-stretch align-items-md-center">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="./#">
+              <a className="nav-link" href="./">
               
                 <span className="nav-link-title">
                   Home
@@ -133,7 +133,7 @@ const Header: React.FC = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="./#">
+              <a className="nav-link" href="/about-me">
                 
                 <span className="nav-link-title">
                   About Me
@@ -141,7 +141,7 @@ const Header: React.FC = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="./#">
+              <a className="nav-link" href="/projects">
                 
                 <span className="nav-link-title">
                     Project
@@ -150,7 +150,7 @@ const Header: React.FC = () => {
             </li>
          
             <li className="nav-item">
-              <a className="nav-link" href="./#">
+              <a className="nav-link" href="/services">
                 
                 <span className="nav-link-title">
                   Services
@@ -159,7 +159,7 @@ const Header: React.FC = () => {
             </li>
          
             <li className="nav-item">
-              <a className="nav-link" href="./#">
+              <a className="nav-link" href="/contact-me">
                 
                 <span className="nav-link-title">
                   Contact Me
