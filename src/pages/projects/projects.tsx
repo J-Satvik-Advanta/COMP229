@@ -2,21 +2,21 @@ import React from 'react';
 
 const projects = [
   {
-    image: '/src/assets/advanta-rapid-erp.png',
+    image: '/advanta-rapid-erp.png',
     title: 'Rapid ERP',
     description: 'Rapid ERP is a comprehensive ERP solution for schools and colleges, encompassing everything from administrative tasks to student management, financial operations, and more. It aims to streamline and automate various processes within educational institutions, making management more efficient and effective.',
     role: 'Front End and Back End Developer',
     outcome: 'The project successfully integrated multiple modules into a single platform, improving administrative efficiency and providing real-time data insights.'
   },
   {
-    image: '/src/assets/advanta-witty.jpeg',
+    image: '/advanta-witty.jpeg',
     title: 'Advanta Witty',
     description: 'Advanta Witty is an advanced accounting software designed to simplify financial management for businesses of all sizes. It offers features such as invoicing, expense tracking, payroll management, and financial reporting, helping businesses maintain accurate financial records and streamline their accounting processes.',
     role: 'Front End and Back End Developer',
     outcome: 'The software significantly reduced the time spent on financial management tasks, provided accurate financial reports, and improved overall business operations.'
   },
   {
-    image: '/src/assets/advanta-portal.png',
+    image: '/advanta-portal.png',
     title: 'Advanta Portal',
     description: 'Advanta Portal is a robust platform for managing student and parent data, providing tools for communication, performance tracking, attendance management, and more. It helps educational institutions keep track of student information and enhance parent-teacher interactions, ensuring a collaborative environment for student success.',
     role: 'Front End and Back End Developer',

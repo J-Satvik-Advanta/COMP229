@@ -12,7 +12,7 @@ const Header: React.FC = () => {
         </button>
         <h1 className="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
           <Link to="/">
-            <img src="/src/assets/my-logo.jpeg" alt="my-logo" width="32" height="32" />
+            <img src="/my-logo.jpeg" alt="my-logo" width="32" height="32" />
           </Link>
         </h1>
         <div className="navbar-nav flex-row order-md-last">
@@ -32,7 +32,7 @@ const Header: React.FC = () => {
           </div>
           <div className="nav-item dropdown">
             <a href="#" className="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown" aria-label="Open user menu">
-              <span className="avatar avatar-sm" style={{ backgroundImage: `url(/src/assets/my-photo.jpeg)` }}></span>
+              <span className="avatar avatar-sm" style={{ backgroundImage: `url(/my-photo.jpeg)` }}></span>
               <div className="d-none d-xl-block ps-2">
                 <div>Satvik Kumar Jain</div>
                 <div className="mt-1 small text-secondary">Web Developer</div>
