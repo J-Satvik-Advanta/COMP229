@@ -5,7 +5,7 @@ const AboutMe: React.FC = () => {
     <div className="container my-5">
       <div className="row">
         <div className="col-md-6 d-flex justify-content-center align-items-start">
-          <img src="/my-photo.jpeg" height="520px" alt="Satvik Kumar Jain" />
+          <img src="/src/assets/my-photo.jpeg" height="520px" alt="Satvik Kumar Jain" />
         </div>
         <div className="col-md-6">
           <h2>About Me</h2>
@@ -34,7 +34,7 @@ const AboutMe: React.FC = () => {
             <li>Authored and published engaging articles</li>
           </ul>
 
-          <a href="/satvik-resume.pdf" target="_blank" className="btn btn-secondary mt-3" rel="noopener noreferrer">Download Resume</a>
+          <a href="/src/assets/satvik-resume.pdf" target="_blank" className="btn btn-secondary mt-3" rel="noopener noreferrer">Download Resume</a>
         </div>
       </div>
     </div>
